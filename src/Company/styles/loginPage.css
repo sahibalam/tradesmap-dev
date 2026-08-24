@@ -1,0 +1,118 @@
+/* Company welcome / account creation page styles. */
+:root {
+  --primary: #1f4fc6;
+  --primary-dark: #173fa6;
+  --text-dark: #182235;
+  --text-light: #5d6572;
+  --border: #dce1e8;
+  --white: #ffffff;
+}
+
+/* Page shell and top security header. */
+.tradesmap-page {
+  min-height: 100vh;
+  padding: 20px 28px;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--text-dark);
+}
+
+.top-header {
+  min-height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e9ee;
+  padding: 0 5px 18px;
+}
+
+.logo { display: flex; align-items: center; gap: 12px; font-size: 34px; font-weight: 700; letter-spacing: -1px; }
+.logo > span > span { color: var(--primary); }
+.logo-icon { width: 56px; height: 56px; object-fit: contain; display: block; }
+
+.security-info { display: flex; align-items: center; gap: 12px; color: #2e7d42; }
+.security-info div { display: flex; flex-direction: column; gap: 5px; }
+.security-info strong { font-size: 13px; color: var(--text-dark); }
+.security-info small { font-size: 11px; color: #616875; }
+
+/* Account form and welcome content. */
+.main-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 22px;
+  background: var(--white);
+  border: 1px solid #e5e8ee;
+  border-radius: 8px;
+  min-height: 760px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px rgba(0,0,0,.03);
+}
+
+.signup-card { padding: 30px; border-right: 1px solid #e6e9ef; }
+.signup-card h1 { font-size: 29px; margin: 0 0 30px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+.input-group { margin-bottom: 25px; }
+.input-group label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.input-wrapper { height: 54px; display: flex; align-items: center; border: 1px solid var(--border); border-radius: 8px; padding: 0 15px; background: white; }
+.input-wrapper:focus-within { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(31,79,198,.08); }
+.input-wrapper input { width: 100%; border: 0; outline: 0; font-size: 14px; background: transparent; }
+.input-icon { display: flex; color: #6b7280; }
+.password-visibility-button { display: grid; place-items: center; padding: 2px; border: 0; color: inherit; background: transparent; cursor: pointer; }
+.password-visibility-button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; border-radius: 3px; }
+.input-error { border-color: #e5484d; }
+.error-text { display: block; color: #d72d36; margin-top: 5px; font-size: 11px; }
+
+.checkbox-section { display: flex; flex-direction: column; gap: 16px; margin-bottom: 28px; }
+.checkbox-label { display: flex; align-items: flex-start; gap: 14px; font-size: 13px; line-height: 1.5; cursor: pointer; }
+.checkbox-label input { width: 22px; height: 22px; margin: 0; accent-color: var(--primary); }
+.checkbox-label a, .signin-bottom a { color: var(--primary); font-weight: 600; text-decoration: none; }
+
+.continue-button { width: 100%; height: 54px; border: 0; border-radius: 6px; background: linear-gradient(90deg,#1f4bc4,#2758d5); color: white; font-size: 16px; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 12px; cursor: pointer; transition: .2s ease; }
+.continue-button:hover { background: var(--primary-dark); transform: translateY(-1px); }
+.signin-bottom { text-align: center; margin-top: 12px; font-size: 13px; color: #666; }
+.success-text { margin: 12px 0 0; color: #16723b; font-size: 13px; text-align: center; }
+
+.welcome-section { display: grid; grid-template-columns: 1fr 1.05fr; gap: 20px; padding: 48px 40px; }
+.welcome-content { max-width: 400px; }
+.welcome-content h2 { font-size: 37px; line-height: 1.5; margin: 0 0 14px; }
+.welcome-content h2 span { color: var(--primary); }
+.welcome-description { font-size: 16px; line-height: 2; color: #434a56; margin: 0 0 35px; }
+.features-list { display: flex; flex-direction: column; gap: 22px; }
+.feature-item { display: flex; align-items: center; gap: 20px; }
+.feature-icon { width: 66px; height: 66px; min-width: 66px; display: grid; place-items: center; color: var(--primary); background: #f1f4fa; border-radius: 12px; }
+.feature-content h4 { font-size: 15px; margin: 0 0 7px; }
+.feature-content p { font-size: 14px; color: #4e5560; margin: 0; }
+
+.signin-box { margin-top: 50px; display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 22px 18px; background: #f2f5fb; border-radius: 10px; }
+.signin-info { display: flex; align-items: center; gap: 12px; color: var(--primary); }
+.signin-info div { display: flex; flex-direction: column; gap: 6px; }
+.signin-info strong { color: var(--text-dark); font-size: 14px; }
+.signin-info small { color: #555d68; font-size: 11px; }
+.signin-button { border: 1px solid #2d5ac4; color: #173d9c; background: white; text-decoration: none; padding: 12px 18px; border-radius: 7px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+
+.construction-image { width: 100%; height: 635px; overflow: hidden; border-radius: 10px; background: linear-gradient(135deg,#dfe9f5,#aebfd4); }
+.construction-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Footer links. */
+.footer { min-height: 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; border: 1px solid #e6e9ef; border-radius: 5px; margin-top: 20px; background: white; font-size: 12px; color: #626a75; }
+.footer-links { display: flex; gap: 38px; }
+.footer-links a { text-decoration: none; color: #626a75; }
+
+/* Responsive layout adjustments. */
+@media (max-width: 1200px) {
+  .main-container { grid-template-columns: 1fr; }
+  .signup-card { border-right: 0; border-bottom: 1px solid #e6e9ef; }
+  .welcome-section { grid-template-columns: 1fr; }
+  .construction-image { height: 500px; }
+}
+
+@media (max-width: 700px) {
+  .tradesmap-page { padding: 12px; }
+  .top-header { align-items: flex-start; gap: 20px; flex-direction: column; }
+  .logo { font-size: 27px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .signup-card, .welcome-section { padding: 22px; }
+  .welcome-content h2 { font-size: 29px; }
+  .construction-image { height: 350px; }
+  .footer { flex-direction: column; justify-content: center; gap: 15px; padding: 20px; }
+  .footer-links { gap: 15px; flex-wrap: wrap; justify-content: center; }
+}

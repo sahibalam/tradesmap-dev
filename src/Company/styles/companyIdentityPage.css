@@ -1,0 +1,454 @@
+/* Company identity onboarding step. */
+/* Shared colour tokens for this onboarding screen. */
+:root{
+  --identity-blue:#0758d7;
+  --identity-text:#101828;
+  --identity-muted:#475467;
+  --identity-line:#e4e7ec
+}
+/* Page shell and secure-information notice. */
+.identity-page{
+  min-height:100vh;
+  color:var(--identity-text);
+  background:#fff;
+  padding:20px 18px;
+  font-family:Inter,Arial,sans-serif
+}
+.identity-security{
+  color:#111827;
+  justify-content:flex-end;
+  align-items:center;
+  gap:13px;
+  min-height:49px;
+  padding-right:24px;
+  display:flex
+}
+.identity-security>svg{
+  color:#111827
+}
+.identity-security span{
+  gap:3px;
+  display:grid
+}
+.identity-security strong{
+  font-size:13px
+}
+.identity-security small{
+  font-size:11px
+}
+.identity-shell{
+  border:1px solid var(--identity-line);
+  background:#fff;
+  border-radius:8px;
+  grid-template-columns:260px minmax(0,1fr);
+  min-height:calc(100vh - 89px);
+  display:grid;
+  overflow:hidden;
+  box-shadow:0 2px 6px #10182806
+}
+/* Left-hand registration progress and support card. */
+.identity-sidebar{
+  border-right:1px solid var(--identity-line);
+  flex-direction:column;
+  padding:20px 16px 48px;
+  display:flex
+}
+.step-list{
+  gap:8px;
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:grid
+}
+.step-list li{
+  color:#344054;
+  border-radius:5px;
+  align-items:flex-start;
+  gap:13px;
+  min-height:66px;
+  padding:11px 9px;
+  font-size:15px;
+  line-height:1.65;
+  display:flex
+}
+.step-list li.active{
+  color:#0758d7;
+  background:linear-gradient(90deg,#eff6ff,#f7faff);
+  font-weight:600
+}
+.step-number{
+  color:#344054;
+  background:#f2f4f7;
+  border-radius:50%;
+  flex:0 0 31px;
+  place-items:center;
+  width:31px;
+  height:31px;
+  margin-top:1px;
+  font-weight:600;
+  display:grid
+}
+.active .step-number,.complete .step-number{
+  background:var(--identity-blue);
+  color:#fff
+}
+.step-list small{
+  font-size:14px;
+  line-height:1.5;
+  display:block
+}
+.help-card{
+  border:1px solid var(--identity-line);
+  background:#fcfdff;
+  border-radius:7px;
+  grid-template-columns:auto 1fr;
+  gap:13px;
+  margin:auto 2px 0;
+  padding:21px 16px;
+  display:grid
+}
+.help-card>svg{
+  color:var(--identity-blue)
+}
+.help-card strong{
+  font-size:14px
+}
+.help-card p{
+  margin:8px 0 14px;
+  font-size:12px;
+  line-height:1.9
+}
+.help-card button{
+  color:#074bb8;
+  cursor:pointer;
+  background:#fff;
+  border:1px solid #aec5e9;
+  border-radius:6px;
+  grid-column:1/-1;
+  height:46px;
+  font:600 14px inherit
+}
+/* Main company identity form. */
+.identity-content{
+  min-width:0
+}
+.identity-content form{
+  flex-direction:column;
+  min-height:calc(100vh - 89px);
+  display:flex
+}
+.identity-body{
+  flex:1;
+  grid-template-columns:minmax(440px,1fr) 355px;
+  gap:34px;
+  padding:29px 28px 20px;
+  display:grid
+}
+.identity-form h1{
+  letter-spacing:-.5px;
+  margin:0;
+  font-size:27px
+}
+.identity-intro{
+  color:var(--identity-muted);
+  margin:12px 0 29px;
+  font-size:17px
+}
+.identity-field{
+  color:#101828;
+  margin-bottom:29px;
+  font-size:14px;
+  font-weight:600;
+  display:block
+}
+.identity-field>span,.logo-field>span{
+  margin-bottom:10px;
+  display:block
+}
+.identity-field em{
+  color:#667085;
+  font-style:normal;
+  font-weight:500
+}
+.identity-field:not(.is-optional)>span:after,.logo-field.required>span:after{
+  content:" *";
+  color:#d92d20
+}
+.identity-field input,.identity-field select,.identity-field textarea{
+  color:#101828;
+  background:#fff;
+  border:1px solid #d0d5dd;
+  border-radius:6px;
+  outline:none;
+  width:100%;
+  font:15px Inter,Arial,sans-serif;
+  transition:border-color .15s,box-shadow .15s
+}
+.identity-field input,.identity-field select{
+  height:48px;
+  padding:0 14px
+}
+.identity-field select{
+  appearance:auto
+}
+.identity-field textarea{
+  resize:vertical;
+  min-height:128px;
+  padding:14px;
+  line-height:1.75
+}
+.identity-field input:focus,.identity-field select:focus,.identity-field textarea:focus{
+  border-color:var(--identity-blue);
+  box-shadow:0 0 0 3px #0758d71a
+}
+.identity-field.has-error input,.identity-field.has-error select,.identity-field.has-error textarea{
+  border-color:#d92d20
+}
+.identity-field>small,.upload-copy>small{
+  color:#d92d20;
+  margin-top:6px;
+  font-size:12px;
+  font-weight:500;
+  display:block
+}
+.identity-row{
+  grid-template-columns:1.15fr .85fr;
+  gap:30px;
+  display:grid
+}
+.logo-field{
+  margin:8px 0 37px;
+  font-size:14px;
+  font-weight:600
+}
+.logo-upload-row{
+  align-items:center;
+  gap:23px;
+  display:flex
+}
+.logo-placeholder{
+  color:#8d949e;
+  background:#fff;
+  border:1px solid #dfe3e8;
+  border-radius:5px;
+  place-items:center;
+  width:128px;
+  height:114px;
+  display:grid;
+  overflow:hidden;
+  box-shadow:inset 0 0 0 9px #fafafa
+}
+.logo-placeholder img{
+  object-fit:contain;
+  width:100%;
+  height:100%
+}
+.upload-copy{
+  font-size:14px
+}
+.upload-copy strong{
+  font-weight:500
+}
+.upload-copy p{
+  color:#667085;
+  margin:11px 0 14px;
+  font-size:12px
+}
+.upload-button{
+  color:#0758d7;
+  cursor:pointer;
+  border:1px solid #aec5e9;
+  border-radius:5px;
+  align-items:center;
+  gap:8px;
+  height:43px;
+  padding:0 14px;
+  font-size:14px;
+  display:inline-flex
+}
+.upload-button input{
+  display:none
+}
+.description-wrap{
+  position:relative
+}
+.description-wrap textarea{
+  padding-bottom:29px
+}
+.description-wrap>small{
+  color:#667085;
+  font-size:12px;
+  font-weight:400;
+  position:absolute;
+  bottom:10px;
+  right:13px
+}
+/* Information notice and live company preview. */
+.identity-preview-column{
+  align-content:start;
+  gap:22px;
+  display:grid
+}
+.why-card{
+  background:#f5f9ff;
+  border:1px solid #d8e6f8;
+  border-radius:7px;
+  gap:14px;
+  padding:21px 20px;
+  display:flex
+}
+.why-card svg{
+  color:var(--identity-blue);
+  flex:none
+}
+.why-card strong{
+  margin:2px 0 13px;
+  font-size:15px;
+  display:block
+}
+.why-card p{
+  margin:0;
+  font-size:14px;
+  line-height:1.85
+}
+.company-preview{
+  border:1px solid var(--identity-line);
+  border-radius:7px;
+  min-height:595px;
+  padding:26px 24px
+}
+.company-preview h2{
+  margin:2px 0 33px;
+  font-size:16px
+}
+.preview-item{
+  grid-template-columns:22px 1fr;
+  gap:13px;
+  margin-bottom:25px;
+  display:grid
+}
+.preview-item>svg{
+  color:#344054;
+  margin-top:2px
+}
+.preview-item strong{
+  margin-bottom:8px;
+  font-size:13px;
+  display:block
+}
+.preview-item p{
+  color:#1d2939;
+  overflow-wrap:anywhere;
+  margin:0;
+  font-size:14px;
+  line-height:1.8
+}
+/* Bottom navigation controls. */
+.identity-actions{
+  border-top:1px solid var(--identity-line);
+  justify-content:space-between;
+  align-items:center;
+  min-height:94px;
+  padding:18px 28px;
+  display:flex
+}
+.cancel-button{
+  color:#101828;
+  cursor:pointer;
+  background:#fff;
+  border:1px solid #d0d5dd;
+  border-radius:6px;
+  min-width:101px;
+  height:45px;
+  font:600 14px Inter,Arial,sans-serif
+}
+.identity-continue{
+  color:#fff;
+  cursor:pointer;
+  background:#0758d7;
+  border:1px solid #0758d7;
+  border-radius:5px;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+  min-width:243px;
+  height:45px;
+  font:600 14px Inter,Arial,sans-serif;
+  display:inline-flex;
+  box-shadow:0 1px 2px #1018281a
+}
+.cancel-button:hover{
+  background:#f9fafb
+}
+.identity-continue:hover{
+  background:#064ab6
+}
+.completion-message{
+  color:#067647;
+  text-align:right;
+  max-width:243px;
+  margin:7px 0 0;
+  font-size:11px;
+  line-height:1.4
+}
+/* Tablet and mobile layout adjustments. */
+@media (width<=1100px){
+  .identity-shell{
+    grid-template-columns:220px minmax(0,1fr)
+  }
+  .identity-body{
+    grid-template-columns:1fr
+  }
+  .identity-preview-column{
+    grid-template-columns:1fr 1.4fr
+  }
+  .company-preview{
+    min-height:0
+  }
+  .help-card{
+    display:none
+  }
+}
+@media (width<=760px){
+  .identity-page{
+    padding:10px
+  }
+  .identity-security{
+    justify-content:flex-start;
+    padding:7px 5px 17px
+  }
+  .identity-shell{
+    display:block
+  }
+  .identity-sidebar{
+    border-right:0;
+    border-bottom:1px solid var(--identity-line);
+    padding:10px
+  }
+  .step-list{
+    display:flex;
+    overflow-x:auto
+  }
+  .step-list li{
+    min-width:180px
+  }
+  .identity-body{
+    padding:25px 20px
+  }
+  .identity-row,.identity-preview-column{
+    grid-template-columns:1fr;
+    gap:0
+  }
+  .identity-actions{
+    padding:16px 20px
+  }
+  .identity-continue{
+    min-width:155px
+  }
+  .company-preview{
+    margin-top:18px
+  }
+  .logo-upload-row{
+    align-items:flex-start
+  }
+}

@@ -1,0 +1,3549 @@
+{
+  "version": "2.0",
+  "dataset": "TradesMap Construction Capabilities Search",
+  "purpose": "Searchable capability library for the TradesMap Company Construction Capabilities registration step.",
+  "search": {
+    "search_fields": [
+      "name",
+      "package_name",
+      "keywords"
+    ],
+    "case_sensitive": false,
+    "partial_match": true,
+    "match_package_and_capability": true,
+    "return_package": true
+  },
+  "trade_package_count": 26,
+  "capability_count": 260,
+  "trade_packages": [
+    {
+      "package_id": "01",
+      "package_name": "Interiors / Interior Systems",
+      "keywords": [
+        "interiors",
+        "interior systems",
+        "fit out"
+      ],
+      "capabilities": [
+        {
+          "id": "01-001",
+          "name": "Interior Systems",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out"
+          ]
+        },
+        {
+          "id": "01-002",
+          "name": "Drywall",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "drywall"
+          ]
+        },
+        {
+          "id": "01-003",
+          "name": "Metal Stud Framing",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "metal stud framing"
+          ]
+        },
+        {
+          "id": "01-004",
+          "name": "Acoustic Ceilings",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "acoustic ceilings"
+          ]
+        },
+        {
+          "id": "01-005",
+          "name": "Interior Framing",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "interior framing"
+          ]
+        },
+        {
+          "id": "01-006",
+          "name": "Drywall Finishing",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "drywall finishing"
+          ]
+        },
+        {
+          "id": "01-007",
+          "name": "Fire-Rated Assemblies",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "fire-rated assemblies"
+          ]
+        },
+        {
+          "id": "01-008",
+          "name": "Firestopping",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "firestopping"
+          ]
+        },
+        {
+          "id": "01-009",
+          "name": "Interior Demolition",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "interior demolition"
+          ]
+        },
+        {
+          "id": "01-010",
+          "name": "Interior Renovation",
+          "package_id": "01",
+          "package_name": "Interiors / Interior Systems",
+          "keywords": [
+            "interiors",
+            "interior systems",
+            "fit out",
+            "interior renovation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "02",
+      "package_name": "General Carpentry",
+      "keywords": [
+        "carpentry",
+        "rough carpentry",
+        "finish carpentry"
+      ],
+      "capabilities": [
+        {
+          "id": "02-001",
+          "name": "General Carpentry",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "general carpentry"
+          ]
+        },
+        {
+          "id": "02-002",
+          "name": "Rough Carpentry",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry"
+          ]
+        },
+        {
+          "id": "02-003",
+          "name": "Wood Framing",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "wood framing"
+          ]
+        },
+        {
+          "id": "02-004",
+          "name": "Blocking & Backing",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "blocking backing"
+          ]
+        },
+        {
+          "id": "02-005",
+          "name": "Finish Carpentry",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry"
+          ]
+        },
+        {
+          "id": "02-006",
+          "name": "Exterior Carpentry",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "exterior carpentry"
+          ]
+        },
+        {
+          "id": "02-007",
+          "name": "Deck Construction",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "deck construction"
+          ]
+        },
+        {
+          "id": "02-008",
+          "name": "Temporary Wood Construction",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "temporary wood construction"
+          ]
+        },
+        {
+          "id": "02-009",
+          "name": "Carpentry Repairs",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "carpentry repairs"
+          ]
+        },
+        {
+          "id": "02-010",
+          "name": "Carpentry Renovation",
+          "package_id": "02",
+          "package_name": "General Carpentry",
+          "keywords": [
+            "carpentry",
+            "rough carpentry",
+            "finish carpentry",
+            "carpentry renovation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "03",
+      "package_name": "Division 10 / Building Specialties",
+      "keywords": [
+        "division 10",
+        "building specialties",
+        "specialties"
+      ],
+      "capabilities": [
+        {
+          "id": "03-001",
+          "name": "Toilet Accessories",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "toilet accessories"
+          ]
+        },
+        {
+          "id": "03-002",
+          "name": "Toilet Partitions",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "toilet partitions"
+          ]
+        },
+        {
+          "id": "03-003",
+          "name": "Wall Protection",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "wall protection"
+          ]
+        },
+        {
+          "id": "03-004",
+          "name": "Fire Extinguisher Cabinets",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "fire extinguisher cabinets"
+          ]
+        },
+        {
+          "id": "03-005",
+          "name": "Lockers",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "lockers"
+          ]
+        },
+        {
+          "id": "03-006",
+          "name": "Signage",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "signage"
+          ]
+        },
+        {
+          "id": "03-007",
+          "name": "Cubicles",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "cubicles"
+          ]
+        },
+        {
+          "id": "03-008",
+          "name": "Specialty Shelving",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "specialty shelving"
+          ]
+        },
+        {
+          "id": "03-009",
+          "name": "Access Flooring",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "access flooring"
+          ]
+        },
+        {
+          "id": "03-010",
+          "name": "Building Specialties Installation",
+          "package_id": "03",
+          "package_name": "Division 10 / Building Specialties",
+          "keywords": [
+            "division 10",
+            "building specialties",
+            "specialties",
+            "building specialties installation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "04",
+      "package_name": "General Labor",
+      "keywords": [
+        "general labor",
+        "construction labor",
+        "site labor"
+      ],
+      "capabilities": [
+        {
+          "id": "04-001",
+          "name": "General Construction Labor",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "general construction labor"
+          ]
+        },
+        {
+          "id": "04-002",
+          "name": "Site Cleanup",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "site cleanup"
+          ]
+        },
+        {
+          "id": "04-003",
+          "name": "Material Handling",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "material handling"
+          ]
+        },
+        {
+          "id": "04-004",
+          "name": "Loading & Unloading",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "loading unloading"
+          ]
+        },
+        {
+          "id": "04-005",
+          "name": "Demolition Labor",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "demolition labor"
+          ]
+        },
+        {
+          "id": "04-006",
+          "name": "Site Support",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "site support"
+          ]
+        },
+        {
+          "id": "04-007",
+          "name": "Traffic Support",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "traffic support"
+          ]
+        },
+        {
+          "id": "04-008",
+          "name": "Equipment Spotter",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "equipment spotter"
+          ]
+        },
+        {
+          "id": "04-009",
+          "name": "Site Maintenance",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "site maintenance"
+          ]
+        },
+        {
+          "id": "04-010",
+          "name": "Punch List Labor",
+          "package_id": "04",
+          "package_name": "General Labor",
+          "keywords": [
+            "general labor",
+            "construction labor",
+            "site labor",
+            "punch list labor"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "05",
+      "package_name": "Painting",
+      "keywords": [
+        "painting",
+        "commercial painting",
+        "coatings"
+      ],
+      "capabilities": [
+        {
+          "id": "05-001",
+          "name": "Interior Painting",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "interior painting"
+          ]
+        },
+        {
+          "id": "05-002",
+          "name": "Exterior Painting",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "exterior painting"
+          ]
+        },
+        {
+          "id": "05-003",
+          "name": "Commercial Painting",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings"
+          ]
+        },
+        {
+          "id": "05-004",
+          "name": "Surface Preparation",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "surface preparation"
+          ]
+        },
+        {
+          "id": "05-005",
+          "name": "Spray Painting",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "spray painting"
+          ]
+        },
+        {
+          "id": "05-006",
+          "name": "Epoxy Coatings",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "epoxy coatings"
+          ]
+        },
+        {
+          "id": "05-007",
+          "name": "Industrial Coatings",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "industrial coatings"
+          ]
+        },
+        {
+          "id": "05-008",
+          "name": "Staining & Finishing",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "staining finishing"
+          ]
+        },
+        {
+          "id": "05-009",
+          "name": "Fireproof Coatings",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "fireproof coatings"
+          ]
+        },
+        {
+          "id": "05-010",
+          "name": "Painting Renovation",
+          "package_id": "05",
+          "package_name": "Painting",
+          "keywords": [
+            "painting",
+            "commercial painting",
+            "coatings",
+            "painting renovation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "06",
+      "package_name": "Flooring",
+      "keywords": [
+        "flooring",
+        "floor installation",
+        "floor finishes"
+      ],
+      "capabilities": [
+        {
+          "id": "06-001",
+          "name": "Flooring Installation",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "flooring installation"
+          ]
+        },
+        {
+          "id": "06-002",
+          "name": "Carpet",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "carpet"
+          ]
+        },
+        {
+          "id": "06-003",
+          "name": "Luxury Vinyl Tile",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "luxury vinyl tile"
+          ]
+        },
+        {
+          "id": "06-004",
+          "name": "Sheet Vinyl",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "sheet vinyl"
+          ]
+        },
+        {
+          "id": "06-005",
+          "name": "Ceramic Tile",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "ceramic tile"
+          ]
+        },
+        {
+          "id": "06-006",
+          "name": "Porcelain Tile",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "porcelain tile"
+          ]
+        },
+        {
+          "id": "06-007",
+          "name": "Epoxy Flooring",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "epoxy flooring"
+          ]
+        },
+        {
+          "id": "06-008",
+          "name": "Polished Concrete Floors",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "polished concrete floors"
+          ]
+        },
+        {
+          "id": "06-009",
+          "name": "Wood Flooring",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "wood flooring"
+          ]
+        },
+        {
+          "id": "06-010",
+          "name": "Floor Preparation",
+          "package_id": "06",
+          "package_name": "Flooring",
+          "keywords": [
+            "flooring",
+            "floor installation",
+            "floor finishes",
+            "floor preparation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "07",
+      "package_name": "Doors & Hardware",
+      "keywords": [
+        "doors",
+        "door hardware",
+        "frames",
+        "locks"
+      ],
+      "capabilities": [
+        {
+          "id": "07-001",
+          "name": "Commercial Doors",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "commercial doors"
+          ]
+        },
+        {
+          "id": "07-002",
+          "name": "Hollow Metal Doors",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "hollow metal doors"
+          ]
+        },
+        {
+          "id": "07-003",
+          "name": "Hollow Metal Frames",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "hollow metal frames"
+          ]
+        },
+        {
+          "id": "07-004",
+          "name": "Wood Doors",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "wood doors"
+          ]
+        },
+        {
+          "id": "07-005",
+          "name": "Door Hardware",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks"
+          ]
+        },
+        {
+          "id": "07-006",
+          "name": "Locks & Cylinders",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "locks cylinders"
+          ]
+        },
+        {
+          "id": "07-007",
+          "name": "Exit Devices",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "exit devices"
+          ]
+        },
+        {
+          "id": "07-008",
+          "name": "Door Closers",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "door closers"
+          ]
+        },
+        {
+          "id": "07-009",
+          "name": "Automatic Doors",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "automatic doors"
+          ]
+        },
+        {
+          "id": "07-010",
+          "name": "Door Installation",
+          "package_id": "07",
+          "package_name": "Doors & Hardware",
+          "keywords": [
+            "doors",
+            "door hardware",
+            "frames",
+            "locks",
+            "door installation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "08",
+      "package_name": "Millwork",
+      "keywords": [
+        "millwork",
+        "casework",
+        "cabinetry"
+      ],
+      "capabilities": [
+        {
+          "id": "08-001",
+          "name": "Architectural Millwork",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "architectural millwork"
+          ]
+        },
+        {
+          "id": "08-002",
+          "name": "Custom Casework",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "custom casework"
+          ]
+        },
+        {
+          "id": "08-003",
+          "name": "Cabinetry",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry"
+          ]
+        },
+        {
+          "id": "08-004",
+          "name": "Reception Desks",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "reception desks"
+          ]
+        },
+        {
+          "id": "08-005",
+          "name": "Wall Paneling",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "wall paneling"
+          ]
+        },
+        {
+          "id": "08-006",
+          "name": "Custom Trim",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "custom trim"
+          ]
+        },
+        {
+          "id": "08-007",
+          "name": "Built-In Furniture",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "built-in furniture"
+          ]
+        },
+        {
+          "id": "08-008",
+          "name": "Countertops",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "countertops"
+          ]
+        },
+        {
+          "id": "08-009",
+          "name": "Solid Surface Fabrication",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "solid surface fabrication"
+          ]
+        },
+        {
+          "id": "08-010",
+          "name": "Millwork Installation",
+          "package_id": "08",
+          "package_name": "Millwork",
+          "keywords": [
+            "millwork",
+            "casework",
+            "cabinetry",
+            "millwork installation"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "09",
+      "package_name": "Concrete",
+      "keywords": [
+        "concrete",
+        "structural concrete",
+        "flatwork",
+        "foundations"
+      ],
+      "capabilities": [
+        {
+          "id": "09-001",
+          "name": "Concrete",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations"
+          ]
+        },
+        {
+          "id": "09-002",
+          "name": "Structural Concrete",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations"
+          ]
+        },
+        {
+          "id": "09-003",
+          "name": "Cast-in-Place Concrete",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "cast-in-place concrete"
+          ]
+        },
+        {
+          "id": "09-004",
+          "name": "Concrete Foundations",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete foundations"
+          ]
+        },
+        {
+          "id": "09-005",
+          "name": "Concrete Slabs",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete slabs"
+          ]
+        },
+        {
+          "id": "09-006",
+          "name": "Footings",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "footings"
+          ]
+        },
+        {
+          "id": "09-007",
+          "name": "Concrete Walls",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete walls"
+          ]
+        },
+        {
+          "id": "09-008",
+          "name": "Concrete Columns",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete columns"
+          ]
+        },
+        {
+          "id": "09-009",
+          "name": "Concrete Formwork",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete formwork"
+          ]
+        },
+        {
+          "id": "09-010",
+          "name": "Concrete Finishing",
+          "package_id": "09",
+          "package_name": "Concrete",
+          "keywords": [
+            "concrete",
+            "structural concrete",
+            "flatwork",
+            "foundations",
+            "concrete finishing"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "10",
+      "package_name": "Masonry",
+      "keywords": [
+        "masonry",
+        "brick",
+        "block",
+        "stone",
+        "CMU"
+      ],
+      "capabilities": [
+        {
+          "id": "10-001",
+          "name": "Masonry Construction",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "masonry construction"
+          ]
+        },
+        {
+          "id": "10-002",
+          "name": "Concrete Masonry Units",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "concrete masonry units"
+          ]
+        },
+        {
+          "id": "10-003",
+          "name": "Brick Masonry",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "brick masonry"
+          ]
+        },
+        {
+          "id": "10-004",
+          "name": "Stone Masonry",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "stone masonry"
+          ]
+        },
+        {
+          "id": "10-005",
+          "name": "Masonry Restoration",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "masonry restoration"
+          ]
+        },
+        {
+          "id": "10-006",
+          "name": "Masonry Repair",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "masonry repair"
+          ]
+        },
+        {
+          "id": "10-007",
+          "name": "Mortar Work",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "mortar work"
+          ]
+        },
+        {
+          "id": "10-008",
+          "name": "Masonry Veneer",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "masonry veneer"
+          ]
+        },
+        {
+          "id": "10-009",
+          "name": "Grouting",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "grouting"
+          ]
+        },
+        {
+          "id": "10-010",
+          "name": "Masonry Cleaning",
+          "package_id": "10",
+          "package_name": "Masonry",
+          "keywords": [
+            "masonry",
+            "brick",
+            "block",
+            "stone",
+            "CMU",
+            "masonry cleaning"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "11",
+      "package_name": "Structural Steel",
+      "keywords": [
+        "structural steel",
+        "steel erection",
+        "steel framing"
+      ],
+      "capabilities": [
+        {
+          "id": "11-001",
+          "name": "Structural Steel",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing"
+          ]
+        },
+        {
+          "id": "11-002",
+          "name": "Steel Erection",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing"
+          ]
+        },
+        {
+          "id": "11-003",
+          "name": "Steel Framing",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing"
+          ]
+        },
+        {
+          "id": "11-004",
+          "name": "Steel Beams",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "steel beams"
+          ]
+        },
+        {
+          "id": "11-005",
+          "name": "Steel Columns",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "steel columns"
+          ]
+        },
+        {
+          "id": "11-006",
+          "name": "Steel Joists",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "steel joists"
+          ]
+        },
+        {
+          "id": "11-007",
+          "name": "Metal Decking",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "metal decking"
+          ]
+        },
+        {
+          "id": "11-008",
+          "name": "Miscellaneous Metals",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "miscellaneous metals"
+          ]
+        },
+        {
+          "id": "11-009",
+          "name": "Structural Welding",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "structural welding"
+          ]
+        },
+        {
+          "id": "11-010",
+          "name": "Steel Connections",
+          "package_id": "11",
+          "package_name": "Structural Steel",
+          "keywords": [
+            "structural steel",
+            "steel erection",
+            "steel framing",
+            "steel connections"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "12",
+      "package_name": "Site Work / Earthwork",
+      "keywords": [
+        "site work",
+        "earthwork",
+        "excavation",
+        "grading"
+      ],
+      "capabilities": [
+        {
+          "id": "12-001",
+          "name": "Site Work / Earthwork",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "site work earthwork"
+          ]
+        },
+        {
+          "id": "12-002",
+          "name": "Excavation",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading"
+          ]
+        },
+        {
+          "id": "12-003",
+          "name": "Grading",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading"
+          ]
+        },
+        {
+          "id": "12-004",
+          "name": "Site Preparation",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "site preparation"
+          ]
+        },
+        {
+          "id": "12-005",
+          "name": "Trenching",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "trenching"
+          ]
+        },
+        {
+          "id": "12-006",
+          "name": "Backfilling",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "backfilling"
+          ]
+        },
+        {
+          "id": "12-007",
+          "name": "Compaction",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "compaction"
+          ]
+        },
+        {
+          "id": "12-008",
+          "name": "Utility Excavation",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "utility excavation"
+          ]
+        },
+        {
+          "id": "12-009",
+          "name": "Material Hauling",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "material hauling"
+          ]
+        },
+        {
+          "id": "12-010",
+          "name": "Site Restoration",
+          "package_id": "12",
+          "package_name": "Site Work / Earthwork",
+          "keywords": [
+            "site work",
+            "earthwork",
+            "excavation",
+            "grading",
+            "site restoration"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "13",
+      "package_name": "Demolition",
+      "keywords": [
+        "demolition",
+        "selective demolition",
+        "removal"
+      ],
+      "capabilities": [
+        {
+          "id": "13-001",
+          "name": "Selective Demolition",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal"
+          ]
+        },
+        {
+          "id": "13-002",
+          "name": "Interior Demolition",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "interior demolition"
+          ]
+        },
+        {
+          "id": "13-003",
+          "name": "Structural Demolition",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "structural demolition"
+          ]
+        },
+        {
+          "id": "13-004",
+          "name": "Concrete Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "concrete removal"
+          ]
+        },
+        {
+          "id": "13-005",
+          "name": "Masonry Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "masonry removal"
+          ]
+        },
+        {
+          "id": "13-006",
+          "name": "Flooring Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "flooring removal"
+          ]
+        },
+        {
+          "id": "13-007",
+          "name": "Roof Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "roof removal"
+          ]
+        },
+        {
+          "id": "13-008",
+          "name": "Equipment Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "equipment removal"
+          ]
+        },
+        {
+          "id": "13-009",
+          "name": "Debris Removal",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "debris removal"
+          ]
+        },
+        {
+          "id": "13-010",
+          "name": "Demolition Cleanup",
+          "package_id": "13",
+          "package_name": "Demolition",
+          "keywords": [
+            "demolition",
+            "selective demolition",
+            "removal",
+            "demolition cleanup"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "14",
+      "package_name": "Drywall & Framing",
+      "keywords": [
+        "drywall",
+        "gypsum",
+        "metal studs",
+        "framing"
+      ],
+      "capabilities": [
+        {
+          "id": "14-001",
+          "name": "Gypsum Board",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "gypsum board"
+          ]
+        },
+        {
+          "id": "14-002",
+          "name": "Drywall Installation",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "drywall installation"
+          ]
+        },
+        {
+          "id": "14-003",
+          "name": "Metal Stud Framing",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "metal stud framing"
+          ]
+        },
+        {
+          "id": "14-004",
+          "name": "Light Gauge Framing",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "light gauge framing"
+          ]
+        },
+        {
+          "id": "14-005",
+          "name": "Drywall Finishing",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "drywall finishing"
+          ]
+        },
+        {
+          "id": "14-006",
+          "name": "Shaft Walls",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "shaft walls"
+          ]
+        },
+        {
+          "id": "14-007",
+          "name": "Acoustic Assemblies",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "acoustic assemblies"
+          ]
+        },
+        {
+          "id": "14-008",
+          "name": "Fire-Rated Walls",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "fire-rated walls"
+          ]
+        },
+        {
+          "id": "14-009",
+          "name": "Access Panels",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "access panels"
+          ]
+        },
+        {
+          "id": "14-010",
+          "name": "Wall Partitions",
+          "package_id": "14",
+          "package_name": "Drywall & Framing",
+          "keywords": [
+            "drywall",
+            "gypsum",
+            "metal studs",
+            "framing",
+            "wall partitions"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "15",
+      "package_name": "Roofing",
+      "keywords": [
+        "roofing",
+        "roof installation",
+        "roof repair"
+      ],
+      "capabilities": [
+        {
+          "id": "15-001",
+          "name": "Commercial Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "commercial roofing"
+          ]
+        },
+        {
+          "id": "15-002",
+          "name": "Roof Membranes",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "roof membranes"
+          ]
+        },
+        {
+          "id": "15-003",
+          "name": "TPO Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "tpo roofing"
+          ]
+        },
+        {
+          "id": "15-004",
+          "name": "EPDM Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "epdm roofing"
+          ]
+        },
+        {
+          "id": "15-005",
+          "name": "PVC Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "pvc roofing"
+          ]
+        },
+        {
+          "id": "15-006",
+          "name": "Modified Bitumen",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "modified bitumen"
+          ]
+        },
+        {
+          "id": "15-007",
+          "name": "Shingle Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "shingle roofing"
+          ]
+        },
+        {
+          "id": "15-008",
+          "name": "Metal Roofing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "metal roofing"
+          ]
+        },
+        {
+          "id": "15-009",
+          "name": "Roof Repair",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair"
+          ]
+        },
+        {
+          "id": "15-010",
+          "name": "Roof Flashing",
+          "package_id": "15",
+          "package_name": "Roofing",
+          "keywords": [
+            "roofing",
+            "roof installation",
+            "roof repair",
+            "roof flashing"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "16",
+      "package_name": "Waterproofing & Sealants",
+      "keywords": [
+        "waterproofing",
+        "sealants",
+        "caulking"
+      ],
+      "capabilities": [
+        {
+          "id": "16-001",
+          "name": "Building Waterproofing",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "building waterproofing"
+          ]
+        },
+        {
+          "id": "16-002",
+          "name": "Below-Grade Waterproofing",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "below-grade waterproofing"
+          ]
+        },
+        {
+          "id": "16-003",
+          "name": "Deck Waterproofing",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "deck waterproofing"
+          ]
+        },
+        {
+          "id": "16-004",
+          "name": "Joint Sealants",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "joint sealants"
+          ]
+        },
+        {
+          "id": "16-005",
+          "name": "Expansion Joint Sealants",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "expansion joint sealants"
+          ]
+        },
+        {
+          "id": "16-006",
+          "name": "Caulking",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking"
+          ]
+        },
+        {
+          "id": "16-007",
+          "name": "Air Barriers",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "air barriers"
+          ]
+        },
+        {
+          "id": "16-008",
+          "name": "Water Barriers",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "water barriers"
+          ]
+        },
+        {
+          "id": "16-009",
+          "name": "Foundation Waterproofing",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "foundation waterproofing"
+          ]
+        },
+        {
+          "id": "16-010",
+          "name": "Building Envelope Sealing",
+          "package_id": "16",
+          "package_name": "Waterproofing & Sealants",
+          "keywords": [
+            "waterproofing",
+            "sealants",
+            "caulking",
+            "building envelope sealing"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "17",
+      "package_name": "Insulation",
+      "keywords": [
+        "insulation",
+        "thermal insulation",
+        "acoustic insulation"
+      ],
+      "capabilities": [
+        {
+          "id": "17-001",
+          "name": "Batt Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "batt insulation"
+          ]
+        },
+        {
+          "id": "17-002",
+          "name": "Rigid Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "rigid insulation"
+          ]
+        },
+        {
+          "id": "17-003",
+          "name": "Spray Foam",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "spray foam"
+          ]
+        },
+        {
+          "id": "17-004",
+          "name": "Blown-In Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "blown-in insulation"
+          ]
+        },
+        {
+          "id": "17-005",
+          "name": "Acoustic Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation"
+          ]
+        },
+        {
+          "id": "17-006",
+          "name": "Thermal Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation"
+          ]
+        },
+        {
+          "id": "17-007",
+          "name": "Roof Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "roof insulation"
+          ]
+        },
+        {
+          "id": "17-008",
+          "name": "Pipe Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "pipe insulation"
+          ]
+        },
+        {
+          "id": "17-009",
+          "name": "Firestopping Insulation",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "firestopping insulation"
+          ]
+        },
+        {
+          "id": "17-010",
+          "name": "Insulation Removal",
+          "package_id": "17",
+          "package_name": "Insulation",
+          "keywords": [
+            "insulation",
+            "thermal insulation",
+            "acoustic insulation",
+            "insulation removal"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "18",
+      "package_name": "Glazing & Glass",
+      "keywords": [
+        "glazing",
+        "glass",
+        "storefront",
+        "curtain wall"
+      ],
+      "capabilities": [
+        {
+          "id": "18-001",
+          "name": "Commercial Glazing",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "commercial glazing"
+          ]
+        },
+        {
+          "id": "18-002",
+          "name": "Storefront",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall"
+          ]
+        },
+        {
+          "id": "18-003",
+          "name": "Curtain Wall",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall"
+          ]
+        },
+        {
+          "id": "18-004",
+          "name": "Glass Doors",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "glass doors"
+          ]
+        },
+        {
+          "id": "18-005",
+          "name": "Interior Glass",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "interior glass"
+          ]
+        },
+        {
+          "id": "18-006",
+          "name": "Windows",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "windows"
+          ]
+        },
+        {
+          "id": "18-007",
+          "name": "Aluminum Framing",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "aluminum framing"
+          ]
+        },
+        {
+          "id": "18-008",
+          "name": "Mirrors",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "mirrors"
+          ]
+        },
+        {
+          "id": "18-009",
+          "name": "Glass Railings",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "glass railings"
+          ]
+        },
+        {
+          "id": "18-010",
+          "name": "Glazing Repair",
+          "package_id": "18",
+          "package_name": "Glazing & Glass",
+          "keywords": [
+            "glazing",
+            "glass",
+            "storefront",
+            "curtain wall",
+            "glazing repair"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "19",
+      "package_name": "Plumbing",
+      "keywords": [
+        "plumbing",
+        "domestic water",
+        "sanitary",
+        "piping"
+      ],
+      "capabilities": [
+        {
+          "id": "19-001",
+          "name": "Domestic Water Piping",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "domestic water piping"
+          ]
+        },
+        {
+          "id": "19-002",
+          "name": "Sanitary Piping",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "sanitary piping"
+          ]
+        },
+        {
+          "id": "19-003",
+          "name": "Storm Drainage",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "storm drainage"
+          ]
+        },
+        {
+          "id": "19-004",
+          "name": "Plumbing Fixtures",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "plumbing fixtures"
+          ]
+        },
+        {
+          "id": "19-005",
+          "name": "Sewer Piping",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "sewer piping"
+          ]
+        },
+        {
+          "id": "19-006",
+          "name": "Water Service",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "water service"
+          ]
+        },
+        {
+          "id": "19-007",
+          "name": "Backflow Prevention",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "backflow prevention"
+          ]
+        },
+        {
+          "id": "19-008",
+          "name": "Medical Gas Piping",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "medical gas piping"
+          ]
+        },
+        {
+          "id": "19-009",
+          "name": "Plumbing Equipment",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "plumbing equipment"
+          ]
+        },
+        {
+          "id": "19-010",
+          "name": "Plumbing Repair",
+          "package_id": "19",
+          "package_name": "Plumbing",
+          "keywords": [
+            "plumbing",
+            "domestic water",
+            "sanitary",
+            "piping",
+            "plumbing repair"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "20",
+      "package_name": "HVAC / Mechanical",
+      "keywords": [
+        "HVAC",
+        "mechanical",
+        "heating",
+        "ventilation"
+      ],
+      "capabilities": [
+        {
+          "id": "20-001",
+          "name": "HVAC Installation",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "hvac installation"
+          ]
+        },
+        {
+          "id": "20-002",
+          "name": "Air Conditioning",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "air conditioning"
+          ]
+        },
+        {
+          "id": "20-003",
+          "name": "Heating Systems",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "heating systems"
+          ]
+        },
+        {
+          "id": "20-004",
+          "name": "Ventilation",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation"
+          ]
+        },
+        {
+          "id": "20-005",
+          "name": "Ductwork",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "ductwork"
+          ]
+        },
+        {
+          "id": "20-006",
+          "name": "Sheet Metal",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "sheet metal"
+          ]
+        },
+        {
+          "id": "20-007",
+          "name": "Rooftop Units",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "rooftop units"
+          ]
+        },
+        {
+          "id": "20-008",
+          "name": "Chillers",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "chillers"
+          ]
+        },
+        {
+          "id": "20-009",
+          "name": "Boilers",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "boilers"
+          ]
+        },
+        {
+          "id": "20-010",
+          "name": "Mechanical Equipment",
+          "package_id": "20",
+          "package_name": "HVAC / Mechanical",
+          "keywords": [
+            "HVAC",
+            "mechanical",
+            "heating",
+            "ventilation",
+            "mechanical equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "21",
+      "package_name": "Electrical",
+      "keywords": [
+        "electrical",
+        "power",
+        "lighting",
+        "low voltage"
+      ],
+      "capabilities": [
+        {
+          "id": "21-001",
+          "name": "Electrical Power",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "electrical power"
+          ]
+        },
+        {
+          "id": "21-002",
+          "name": "Lighting",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage"
+          ]
+        },
+        {
+          "id": "21-003",
+          "name": "Electrical Distribution",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "electrical distribution"
+          ]
+        },
+        {
+          "id": "21-004",
+          "name": "Panels",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "panels"
+          ]
+        },
+        {
+          "id": "21-005",
+          "name": "Switchgear",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "switchgear"
+          ]
+        },
+        {
+          "id": "21-006",
+          "name": "Generators",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "generators"
+          ]
+        },
+        {
+          "id": "21-007",
+          "name": "Fire Alarm",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "fire alarm"
+          ]
+        },
+        {
+          "id": "21-008",
+          "name": "Low Voltage",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage"
+          ]
+        },
+        {
+          "id": "21-009",
+          "name": "Data Cabling",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "data cabling"
+          ]
+        },
+        {
+          "id": "21-010",
+          "name": "Electrical Service",
+          "package_id": "21",
+          "package_name": "Electrical",
+          "keywords": [
+            "electrical",
+            "power",
+            "lighting",
+            "low voltage",
+            "electrical service"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "22",
+      "package_name": "Fire Protection",
+      "keywords": [
+        "fire protection",
+        "sprinkler",
+        "fire suppression"
+      ],
+      "capabilities": [
+        {
+          "id": "22-001",
+          "name": "Fire Sprinklers",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "fire sprinklers"
+          ]
+        },
+        {
+          "id": "22-002",
+          "name": "Fire Suppression",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression"
+          ]
+        },
+        {
+          "id": "22-003",
+          "name": "Standpipe Systems",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "standpipe systems"
+          ]
+        },
+        {
+          "id": "22-004",
+          "name": "Fire Pumps",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "fire pumps"
+          ]
+        },
+        {
+          "id": "22-005",
+          "name": "Sprinkler Piping",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "sprinkler piping"
+          ]
+        },
+        {
+          "id": "22-006",
+          "name": "Fire Alarm Systems",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "fire alarm systems"
+          ]
+        },
+        {
+          "id": "22-007",
+          "name": "Clean Agent Systems",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "clean agent systems"
+          ]
+        },
+        {
+          "id": "22-008",
+          "name": "Kitchen Suppression",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "kitchen suppression"
+          ]
+        },
+        {
+          "id": "22-009",
+          "name": "Hydrants",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "hydrants"
+          ]
+        },
+        {
+          "id": "22-010",
+          "name": "Fire Protection Testing",
+          "package_id": "22",
+          "package_name": "Fire Protection",
+          "keywords": [
+            "fire protection",
+            "sprinkler",
+            "fire suppression",
+            "fire protection testing"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "23",
+      "package_name": "Paving / Asphalt",
+      "keywords": [
+        "paving",
+        "asphalt",
+        "road paving",
+        "parking lot"
+      ],
+      "capabilities": [
+        {
+          "id": "23-001",
+          "name": "Asphalt Paving",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "asphalt paving"
+          ]
+        },
+        {
+          "id": "23-002",
+          "name": "Parking Lots",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "parking lots"
+          ]
+        },
+        {
+          "id": "23-003",
+          "name": "Road Paving",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot"
+          ]
+        },
+        {
+          "id": "23-004",
+          "name": "Milling",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "milling"
+          ]
+        },
+        {
+          "id": "23-005",
+          "name": "Asphalt Repair",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "asphalt repair"
+          ]
+        },
+        {
+          "id": "23-006",
+          "name": "Concrete Paving",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "concrete paving"
+          ]
+        },
+        {
+          "id": "23-007",
+          "name": "Sealcoating",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "sealcoating"
+          ]
+        },
+        {
+          "id": "23-008",
+          "name": "Striping",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "striping"
+          ]
+        },
+        {
+          "id": "23-009",
+          "name": "Curbs & Gutters",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "curbs gutters"
+          ]
+        },
+        {
+          "id": "23-010",
+          "name": "Pavement Maintenance",
+          "package_id": "23",
+          "package_name": "Paving / Asphalt",
+          "keywords": [
+            "paving",
+            "asphalt",
+            "road paving",
+            "parking lot",
+            "pavement maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "24",
+      "package_name": "Utilities / Underground",
+      "keywords": [
+        "utilities",
+        "underground utilities",
+        "water main",
+        "sewer"
+      ],
+      "capabilities": [
+        {
+          "id": "24-001",
+          "name": "Water Main",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer"
+          ]
+        },
+        {
+          "id": "24-002",
+          "name": "Sanitary Sewer",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "sanitary sewer"
+          ]
+        },
+        {
+          "id": "24-003",
+          "name": "Storm Sewer",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "storm sewer"
+          ]
+        },
+        {
+          "id": "24-004",
+          "name": "Underground Electrical",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "underground electrical"
+          ]
+        },
+        {
+          "id": "24-005",
+          "name": "Underground Communications",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "underground communications"
+          ]
+        },
+        {
+          "id": "24-006",
+          "name": "Gas Utilities",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "gas utilities"
+          ]
+        },
+        {
+          "id": "24-007",
+          "name": "Utility Trenching",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "utility trenching"
+          ]
+        },
+        {
+          "id": "24-008",
+          "name": "Utility Excavation",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "utility excavation"
+          ]
+        },
+        {
+          "id": "24-009",
+          "name": "Utility Connections",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "utility connections"
+          ]
+        },
+        {
+          "id": "24-010",
+          "name": "Utility Repairs",
+          "package_id": "24",
+          "package_name": "Utilities / Underground",
+          "keywords": [
+            "utilities",
+            "underground utilities",
+            "water main",
+            "sewer",
+            "utility repairs"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "25",
+      "package_name": "Landscaping / Site Improvements",
+      "keywords": [
+        "landscaping",
+        "irrigation",
+        "hardscape",
+        "planting"
+      ],
+      "capabilities": [
+        {
+          "id": "25-001",
+          "name": "Landscape Installation",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "landscape installation"
+          ]
+        },
+        {
+          "id": "25-002",
+          "name": "Planting",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting"
+          ]
+        },
+        {
+          "id": "25-003",
+          "name": "Irrigation",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting"
+          ]
+        },
+        {
+          "id": "25-004",
+          "name": "Hardscape",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting"
+          ]
+        },
+        {
+          "id": "25-005",
+          "name": "Site Furnishings",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "site furnishings"
+          ]
+        },
+        {
+          "id": "25-006",
+          "name": "Trees & Shrubs",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "trees shrubs"
+          ]
+        },
+        {
+          "id": "25-007",
+          "name": "Turf Installation",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "turf installation"
+          ]
+        },
+        {
+          "id": "25-008",
+          "name": "Landscape Maintenance",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "landscape maintenance"
+          ]
+        },
+        {
+          "id": "25-009",
+          "name": "Erosion Control",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "erosion control"
+          ]
+        },
+        {
+          "id": "25-010",
+          "name": "Site Restoration",
+          "package_id": "25",
+          "package_name": "Landscaping / Site Improvements",
+          "keywords": [
+            "landscaping",
+            "irrigation",
+            "hardscape",
+            "planting",
+            "site restoration"
+          ]
+        }
+      ]
+    },
+    {
+      "package_id": "26",
+      "package_name": "Fencing / Site Security",
+      "keywords": [
+        "fencing",
+        "gates",
+        "site fencing",
+        "security fencing"
+      ],
+      "capabilities": [
+        {
+          "id": "26-001",
+          "name": "Chain Link Fencing",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "chain link fencing"
+          ]
+        },
+        {
+          "id": "26-002",
+          "name": "Ornamental Fencing",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "ornamental fencing"
+          ]
+        },
+        {
+          "id": "26-003",
+          "name": "Security Fencing",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing"
+          ]
+        },
+        {
+          "id": "26-004",
+          "name": "Temporary Construction Fencing",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "temporary construction fencing"
+          ]
+        },
+        {
+          "id": "26-005",
+          "name": "Gates",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing"
+          ]
+        },
+        {
+          "id": "26-006",
+          "name": "Access Gates",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "access gates"
+          ]
+        },
+        {
+          "id": "26-007",
+          "name": "Guardrails",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "guardrails"
+          ]
+        },
+        {
+          "id": "26-008",
+          "name": "Bollards",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "bollards"
+          ]
+        },
+        {
+          "id": "26-009",
+          "name": "Site Barriers",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "site barriers"
+          ]
+        },
+        {
+          "id": "26-010",
+          "name": "Fence Repair",
+          "package_id": "26",
+          "package_name": "Fencing / Site Security",
+          "keywords": [
+            "fencing",
+            "gates",
+            "site fencing",
+            "security fencing",
+            "fence repair"
+          ]
+        }
+      ]
+    }
+  ]
+}
